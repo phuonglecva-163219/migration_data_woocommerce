@@ -2280,6 +2280,7 @@ class LeCartWoocommerce(LeCartWordpress):
 				"parent": 0,
 				"count":len(no_products)
 			}
+
 			query = self.create_insert_query_connector('term_taxonomy', term_taxonomy_obj)
 			taxonomy_id = self.import_data_connector(query, 'category')
 

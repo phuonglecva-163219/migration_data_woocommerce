@@ -1,7 +1,0 @@
-2021/01/27 13:52:14 : orders_errors 8: Traceback (most recent call last):
-  File "/home/phuonglc/project/project_v32/cartmigration/controllers/migration.py", line 1036, in migration
-    convert = fn_convert_export(main, ext)
-  File "/home/phuonglc/project/project_v32/cartmigration/models/cart/custom.py", line 1153, in convert_order_export
-    shipping_details = [x for x in data if x['class'] == 'ot_shipping'][0]
-IndexError: list index out of range
-
